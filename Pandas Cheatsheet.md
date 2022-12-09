@@ -48,7 +48,7 @@ df_dataframe = pd.read_csv(
 df_dataframe.to_csv(
   output_file_path,
   sep = ';',
-  index = False # Ikke skrive index-kolonnen til fil,
+  index = False, # Ikke skrive index-kolonnen til fil
   encoding = 'UTF-8'
 )
 ```
